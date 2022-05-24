@@ -26,8 +26,8 @@ export default createGlobalStyle`
   img {
     width: 100%;
     max-width: 100%;
-    border-radius: 20%;
     display: block;
+    border-radius: 50%;
   }
   ul {
     list-style: none;

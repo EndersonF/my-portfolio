@@ -10,7 +10,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
+  height: 3.5rem;
   border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
   border-radius:40px;
 
