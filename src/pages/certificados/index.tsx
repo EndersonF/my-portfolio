@@ -46,7 +46,7 @@ export default function Certificados() {
         <CertficadoItem
           title="Certificado 07"
           type="HTTP e WEB"
-          imgUrl="https://i.ibb.co/rsnmyTF/Enderson-web-page-0001.jpg"
+          imgUrl="https://i.ibb.co/gD9Nskp/Enderson-web-page-0001.jpg"
           slug="http"
         />
           <CertficadoItem
