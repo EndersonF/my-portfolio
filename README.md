@@ -1,21 +1,21 @@
 <div align="center" id="top"> 
-  <img src="../my-portfolio/public/fox.png" alt="fox" />
+  <img src="./public/fox.png" alt="fox" />
 
   &#xa0;
 </div>
 
-<h1 align="center">🔗 Portfólio | Enderson</h1>
+<h1 align="center">🔗 Portfólio | Enderson
 
 <p align="center">
-
+ 
 [![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
 [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 [![Visual Studio Code](https://img.shields.io/badge/--007ACC?logo=visual%20studio%20code&logoColor=ffffff)](https://code.visualstudio.com/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/EndersonF/my-portfolio)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 </p>
+</h1>
 
-<!-- Status -->
 
  <h4 align="center"> 
 	🚧  Portfólio em construção...  🚧
@@ -26,7 +26,7 @@
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requisitos">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#warning-Requisitos">Pré-Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando">Iniciando</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/endersonf" target="_blank">Author</a>
@@ -50,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 
-## :white_check_mark: Pré-requisitos ##
+## :warning: Pré-requisitos ##
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
