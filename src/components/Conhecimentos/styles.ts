@@ -8,7 +8,7 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5.5rem;
+    gap: 4.4rem;
     
     @media (max-width: 1000px) {
       gap: 2.5rem;

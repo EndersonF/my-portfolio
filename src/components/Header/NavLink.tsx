@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import {NavLinkContainer} from './styles';
 import {useRouter} from 'next/router';
-import { FaLessThanEqual } from 'react-icons/fa';
 
 interface Props {
     title: string;
@@ -27,5 +26,5 @@ export default function NavLink({title, path, includes = false}: Props) {
             <a>{title}</a>
             </Link>
         </NavLinkContainer>
-    )
-};
+    );
+}

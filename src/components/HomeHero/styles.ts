@@ -28,7 +28,7 @@ export const Container = styled.section`
   }
   @media (max-width: 1000px) {
     > img {
-      width: 25rem;
+      width: 23rem;
     }
   }
   @media (max-width: 700px) {
@@ -91,6 +91,7 @@ export const TextContainer = styled.section`
     }
   }
 
+
   .animacao-caixa h1,
   h2 {
     overflow: hidden;
@@ -110,6 +111,17 @@ export const TextContainer = styled.section`
     }
     to {
       width: 41.8rem;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 21rem;
+      }
     }
   }
 
@@ -181,6 +193,7 @@ export const CodeItem = styled.pre`
   transition: 4s !important;
   border-radius: 20px;
 
+
   @media (max-width: 1450px) {
     width: 22rem;
     padding: 1.5rem;
@@ -198,6 +211,11 @@ export const CodeItem = styled.pre`
   @media (max-width: 500px) {
     width: 100%;
     align-self: center;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    align-self: center;
+    font-size: 0.6rem;
   }
 
   &:hover {
