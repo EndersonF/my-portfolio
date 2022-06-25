@@ -91,7 +91,6 @@ export const TextContainer = styled.section`
     }
   }
 
-
   .animacao-caixa h1,
   h2 {
     overflow: hidden;
@@ -192,7 +191,6 @@ export const CodeItem = styled.pre`
   align-self: flex-start;
   transition: 4s !important;
   border-radius: 20px;
-
 
   @media (max-width: 1450px) {
     width: 22rem;

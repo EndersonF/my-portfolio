@@ -1,6 +1,6 @@
 import CertficadoItem from '../../components/CertficadoItem';
 import Header from '../../components/Header';
-import { CertificadosStyles} from '../../styles/CertificadosStyles'
+import { CertificadosStyles } from '../../styles/CertificadosStyles';
 
 export default function Certificados() {
   return (
@@ -49,11 +49,17 @@ export default function Certificados() {
           imgUrl="https://i.ibb.co/gD9Nskp/Enderson-web-page-0001.jpg"
           slug="http"
         />
-          <CertficadoItem
+        <CertficadoItem
           title="Certificado 08"
           type="JavaScript+Projetos"
           imgUrl="https://i.ibb.co/jZgkxyh/certificado-web-moderno-js.jpg"
           slug="web-moderno"
+        />
+        <CertficadoItem
+          title="Certificado 09"
+          type="JavaScript Completo ES6"
+          imgUrl="https://i.ibb.co/FXRXVCq/certificate-enderson-orgamid-javascriptes6.jpg"
+          slug="javascript-es6"
         />
       </main>
     </CertificadosStyles>
