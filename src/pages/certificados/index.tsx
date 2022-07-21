@@ -61,6 +61,12 @@ export default function Certificados() {
           imgUrl="https://i.ibb.co/FXRXVCq/certificate-enderson-orgamid-javascriptes6.jpg"
           slug="javascript-es6"
         />
+        <CertficadoItem
+          title="Certificado 10"
+          type="React Completo"
+          imgUrl="https://i.ibb.co/pXdLzZc/certificate-enderson-origamid-react-page-0001-1.jpg"
+          slug="react"
+        />
       </main>
     </CertificadosStyles>
   );

@@ -23,11 +23,21 @@ export default createGlobalStyle`
     background: ${props => props.theme.lightslategrey};
     font: 400 1rem 'Exo', sans-serif;
   }
-  img {
+  img .perfil {
     width: 100%;
     max-width: 100%;
     display: block;
     border-radius: 50%;
+  }
+  .logo404 {
+    width:300px;
+    height:150px;
+    position: absolute;
+    margin-top: 10%;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    box-shadow: 12px 12px black, -1em 0 0.4em gray;
+
   }
   ul {
     list-style: none;

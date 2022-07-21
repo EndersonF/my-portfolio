@@ -1,10 +1,9 @@
-import { CgMail } from "react-icons/cg";
-import { FaGithubAlt, FaTwitch, FaInstagram } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+import { FaGithubAlt, FaTwitch } from 'react-icons/fa';
 import {
   AiOutlineFilePdf,
   AiOutlineTwitter,
-  AiFillLinkedin,
-  AiOutlineWhatsApp
+  AiFillLinkedin
 } from 'react-icons/ai';
 import { Container } from './styles';
 
@@ -24,32 +23,40 @@ function Footer() {
     <Container>
       <div className="container">
         <button type="button" onClick={handleScrollTop}>
-          Voltar ao topo
+          Voltar ao topo 🡩
         </button>
         <section>
           <AiOutlineTwitter
-            onClick={() => handleRedirect('https://twitter.com/enderson_frazao')}
+            onClick={() =>
+              handleRedirect('https://twitter.com/enderson_frazao')
+            }
           />
           <FaGithubAlt
             onClick={() => handleRedirect('https://github.com/EndersonF')}
           />
           <AiFillLinkedin
-            onClick={() => handleRedirect('https://linkedin.com/in/enderson-frazão-121b62175')}
+            onClick={() =>
+              handleRedirect(
+                'https://linkedin.com/in/enderson-frazão-121b62175'
+              )
+            }
           />
           <FaTwitch
             onClick={() => handleRedirect('https://www.twitch.tv/enderfpss')}
           />
-          <FaInstagram
-            onClick={() => handleRedirect('https://www.instagram.com/enderfrazao_07/')}
-          />
           <AiOutlineFilePdf
-            onClick={() => handleRedirect('https://drive.google.com/file/d/1ZdApqIZovoT9WbSqE7GQ5CEy1hR957Fp/view')}
+            onClick={() =>
+              handleRedirect(
+                'https://drive.google.com/file/d/1dZt76mHdi6EH6rcXDs3vQch0t-XHn82Y/view?usp=sharing'
+              )
+            }
           />
-          <AiOutlineWhatsApp
-            onClick={() => handleRedirect('https://api.whatsapp.com/send?phone=5569992201666')}
-          />
-          <CgMail
-            onClick={() => handleRedirect('mailto:enderson.frazao7@gmail.com?subject=Oiii%20again')}
+          <SiGmail
+            onClick={() =>
+              handleRedirect(
+                'mailto:enderson.frazao7@gmail.com?subject=Oiii%20again'
+              )
+            }
           />
           <span>Feito com ❤️ por Enderson</span>
         </section>

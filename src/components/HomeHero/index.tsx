@@ -4,7 +4,7 @@ import picture from '../../assets/miles.png';
 function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img src={picture} alt="Minha Foto" />
+      <img className="perfil" src={picture} alt="Minha Foto" />
       <div>
         <TextContainer>
           <div className="animacao-caixa">
@@ -41,7 +41,7 @@ function HomeHero() {
             <span className="purple">Cargo </span>
             {'\u007B'}
             <div>
-              Função: <span className="blue">"Dev Front-end e Back-end",</span>
+              Função: <span className="blue">"Desenvolvedor Frontend",</span>
             </div>
             <div>
               Status: <span className="blue">"Buscando uma oportunidade"</span>

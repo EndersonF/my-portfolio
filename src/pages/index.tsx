@@ -1,8 +1,8 @@
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
 import { getPrismicClient } from '../services/prismic';
-import {HomeContainer} from '../styles/HomeStyles';
-import Header from "../components/Header";
+import { HomeContainer } from '../styles/HomeStyles';
+import Header from '../components/Header';
 import HomeHero from '../components/HomeHero';
 import Experiencias from '../components/Experiencias';
 import Projetos from '../components/Projetos';
@@ -15,12 +15,12 @@ import 'aos/dist/aos.css';
 import Head from 'next/head';
 
 interface IProjeto {
-    slug: string;
-    title: string;
-    type: string;
-    link: string;
-    description: string;
-    thumbnail: string;
+  slug: string;
+  title: string;
+  type: string;
+  link: string;
+  description: string;
+  thumbnail: string;
 }
 
 interface HomeProps {
@@ -29,13 +29,13 @@ interface HomeProps {
 
 export default function Home({ projetos }: HomeProps) {
   useEffect(() => {
-    Aos.init({duration: 2000});
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <HomeContainer>
-       <Head>
-      <title>Portfólio | Enderson</title>
-      <meta
+      <Head>
+        <title>Enderson Frazão</title>
+        <meta
           name="description"
           content="Sou um desenvolvedor Front-end e Back-end e aqui apresento meus projetos e experiências."
         />
@@ -47,16 +47,16 @@ export default function Home({ projetos }: HomeProps) {
           property="og:description"
           content="Sou um desenvolvedor Front-end e Back-end e aqui apresento meus projetos e experiências."
         />
-        </Head>
+      </Head>
       <Header />
-      <main className = "container">
-        <HomeHero/>
-        <Experiencias/>  
-        <Projetos projetos= {projetos}/>
-        <Conhecimentos/>
-        <FormContato/>
-        </main>
-        <Footer/>      
+      <main className="container">
+        <HomeHero />
+        <Experiencias />
+        <Projetos projetos={projetos} />
+        <Conhecimentos />
+        <FormContato />
+      </main>
+      <Footer />
     </HomeContainer>
   );
 }

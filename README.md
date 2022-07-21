@@ -1,7 +1,8 @@
 <div align="center" id="top"> 
   <img src="./public/fox.png" alt="fox" />
 
-  &#xa0;
+&#xa0;
+
 </div>
 
 <h1 align="center">🔗 Portfólio | Enderson
@@ -16,10 +17,9 @@
 </p>
 </h1>
 
-
  <h4 align="center"> 
 	🚧  Portfólio em construção...  🚧
-</h4> 
+</h4>
 
 <hr>
 
@@ -34,29 +34,28 @@
 
 <br>
 
-## :dart: Sobre ##
+## :dart: Sobre
 
 Portfólio feito para a divulgação dos meus trabalhos.
 
-## :rocket: Tecnologias ##
+## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
 - [JavaScript](https://www.javascript.com/)
 - [Prismic](https://prismic.io/)
 - [Next.js](https://nextjs.org/)
 
-
-
-## :warning: Pré-requisitos ##
+## :warning: Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## :checkered_flag: Iniciando ##
+## :checkered_flag: Iniciando
 
 ```bash
 # Clone este repositório
@@ -74,13 +73,12 @@ $ yarn start ou dev
 # O servidor será inicializado no <http://localhost:3000>
 ```
 
-## :memo: License ##
+## :memo: License
 
 O projeto presente está sob licença do MIT. Você pode consultar em [LICENSE!](https://github.com/EndersonF/my-portfolio/blob/main/LICENSE.md)
-
 
 Feito com :heart: por <a href="https://github.com/endersonf" target="_blank">Enderson</a>
 
 &#xa0;
 
-<a href="#top">Voltar ao topo</a>
+<a href="#top">Voltar ao topo ↑</a>
