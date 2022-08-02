@@ -9,9 +9,11 @@ export const Container = styled.section`
   margin-top: 5rem;
 
   > img {
-    filter: drop-shadow(10px 10px 10px #000);
-    width: 25rem;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 300px;
     flex: 1;
+    filter: drop-shadow(10px 10px 10px #000);
   }
 
   > div {
