@@ -11,7 +11,7 @@ export const Container = styled.section`
   > img {
     border-radius: 10%;
     overflow: hidden;
-    width: 300px;
+    width: 350px;
     flex: 1;
     filter: drop-shadow(10px 10px 10px #000);
   }
@@ -19,7 +19,7 @@ export const Container = styled.section`
   > div {
     flex: 4;
   }
-  @media (max-width: 1450px) {
+  /* @media (max-width: 1450px) {
     > img {
       width: 30rem;
     }
@@ -27,7 +27,7 @@ export const Container = styled.section`
     > div {
       flex: 1;
     }
-  }
+  } */
   @media (max-width: 1000px) {
     > img {
       width: 23rem;

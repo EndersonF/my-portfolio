@@ -8,64 +8,76 @@ export default function Certificados() {
       <Header />
       <main className="container">
         <CertficadoItem
-          title="Certificado 01"
-          type="Node.JS: Streaming de dados"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/J7b7pKG/Enderson-Fraz-o-Barreto-Curso-Alura-1.jpg"
           slug="nodejs"
         />
         <CertficadoItem
-          title="Certificado 02"
-          type="Git e Github"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/RTtNkXY/Enderson-git-page-0001.jpg"
           slug="git"
         />
         <CertficadoItem
-          title="Certificado 03"
-          type="Kanban"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/rv4Xw9K/Enderson-Kanban-page-0001.jpg"
           slug="kanban"
         />
         <CertficadoItem
-          title="Certificado 04"
-          type="JavaScript para Back-End"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/NFHR2PS/Enderson-formacao-js-page-0001.jpg"
-          slug="javascript"
+          slug="javascript-backend"
         />
         <CertficadoItem
-          title="Certificado 05"
-          type="Rest com Node.JS"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/g7ZJ7K4/Enderson-rest-node-page-0001.jpg"
           slug="rest"
         />
         <CertficadoItem
-          title="Certificado 06"
-          type="Scrum"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/Yb7VxhP/Enderson-scrum-page-0001.jpg"
           slug="scrum"
         />
         <CertficadoItem
-          title="Certificado 07"
-          type="HTTP e WEB"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/gD9Nskp/Enderson-web-page-0001.jpg"
           slug="http"
         />
         <CertficadoItem
-          title="Certificado 08"
-          type="JavaScript+Projetos"
+          title=""
+          type=""
           imgUrl="https://i.ibb.co/jZgkxyh/certificado-web-moderno-js.jpg"
           slug="web-moderno"
         />
         <CertficadoItem
-          title="Certificado 09"
-          type="JavaScript Completo ES6"
-          imgUrl="https://i.ibb.co/FXRXVCq/certificate-enderson-orgamid-javascriptes6.jpg"
+          title=""
+          type=""
+          imgUrl="https://i.ibb.co/rcyX5h8/JS-Origamid-novomodelo-page-0001.jpg"
           slug="javascript-es6"
         />
         <CertficadoItem
-          title="Certificado 10"
-          type="React Completo"
-          imgUrl="https://i.ibb.co/pXdLzZc/certificate-enderson-origamid-react-page-0001-1.jpg"
+          title=""
+          type=""
+          imgUrl="https://i.ibb.co/2ZM66LB/certificate-enderson-origamid-react-page-0001.jpg"
           slug="react"
+        />
+        <CertficadoItem
+          title=""
+          type=""
+          imgUrl="https://i.ibb.co/KqB8Znf/certificate-enderson-origamid-htmlandcss-pages-to-jpg-0001.jpg"
+          slug="html-css"
+        />
+        <CertficadoItem
+          title=""
+          type=""
+          imgUrl="https://i.ibb.co/6BcGTbQ/certificate-enderson-origamid-cssgrid-page-0001.jpg"
+          slug="css-grid"
         />
       </main>
     </CertificadosStyles>

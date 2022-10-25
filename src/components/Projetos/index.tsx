@@ -1,7 +1,7 @@
+import Link from 'next/link';
 import SectionTitle from '../SectionTitle';
 import { Container } from './styles';
 import ProjetoItem from './ProjetoItem';
-import Link from 'next/link';
 
 interface IProjeto {
   slug: string;
@@ -22,9 +22,9 @@ function Projetos({ projetos }: ProjetosProps) {
     <Container>
       <SectionTitle title="Ultimos Projetos" />
       <section>
-        {projetos.slice(0,3).map(projeto => (
+        {projetos.slice(0, 3).map(projeto => (
           <ProjetoItem
-          key={projeto.slug}
+            key={projeto.slug}
             img={projeto.thumbnail}
             title={projeto.title}
             type={projeto.type}

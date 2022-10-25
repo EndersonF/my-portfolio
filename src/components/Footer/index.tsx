@@ -47,7 +47,7 @@ function Footer() {
           <AiOutlineFilePdf
             onClick={() =>
               handleRedirect(
-                'https://drive.google.com/file/d/1dZt76mHdi6EH6rcXDs3vQch0t-XHn82Y/view?usp=sharing'
+                'https://drive.google.com/file/d/1xoluH1FKQb2RX7KFbCOWmQh_SPcrclNF/view?usp=sharing'
               )
             }
           />
