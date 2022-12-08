@@ -15,7 +15,7 @@ export default function Custom404() {
         fontWeight: 'bold'
       }}
     >
-      <h1>404 - Página Não Encontrada</h1>
+      <h1>404 - Página Não Encontrada.</h1>
       <img className="logo404" src={logo} alt="logo404" />
     </div>
   );

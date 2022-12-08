@@ -1,11 +1,11 @@
+import { GetStaticPaths, GetStaticProps } from 'next';
+import Prismic from '@prismicio/client';
+import { useRouter } from 'next/router';
 import BannerProjeto from '../../../components/BannerProjeto';
 import { ProjetoContainer } from '../../../styles/ProjetoStyles';
 import Header from '../../../components/Header';
-import { GetStaticPaths, GetStaticProps } from 'next';
 import { getPrismicClient } from '../../../services/prismic';
-import Prismic from '@prismicio/client';
 import LoadingScreen from '../../../components/LoadingScreen';
-import { useRouter } from 'next/router';
 
 interface IProjeto {
   slug: string;
@@ -36,7 +36,7 @@ export default function Projeto({ projeto }: ProjetoProps) {
       <main>
         <p>{projeto.description}</p>
         <button type="button">
-          <a href={projeto.link} target="_blank">
+          <a href={projeto.link} rel="noreferrer" target="_blank">
             Visualizar o projeto
           </a>
         </button>

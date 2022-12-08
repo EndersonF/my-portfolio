@@ -5,7 +5,6 @@ interface ProjetoProps {
   imgUrl: string;
 }
 
-
 export const Container = styled.section`
   width: 100%;
   display: flex;
@@ -17,7 +16,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    
+
     @media (max-width: 1000px) {
       gap: 2rem;
     }
@@ -28,7 +27,7 @@ export const Container = styled.section`
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
-    
+
     &:hover {
       background: ${({ theme }) => darken(0.05, theme.primary)};
     }
@@ -38,7 +37,7 @@ export const Container = styled.section`
       font-size: 1.5rem;
       font-weight: 300;
     }
-    
+
     @media (max-width: 500px) {
       padding: 1rem;
       a {

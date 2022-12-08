@@ -8,18 +8,19 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
 
-  > img {
-    border-radius: 10%;
-    overflow: hidden;
-    width: 350px;
+  > img.perfil {
     flex: 1;
-    filter: drop-shadow(10px 10px 10px #000);
+    width: 35rem;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 1vh solid #232d3622;
   }
 
   > div {
     flex: 4;
   }
-  /* @media (max-width: 1450px) {
+  @media (max-width: 1450px) {
     > img {
       width: 30rem;
     }
@@ -27,10 +28,10 @@ export const Container = styled.section`
     > div {
       flex: 1;
     }
-  } */
+  }
   @media (max-width: 1000px) {
     > img {
-      width: 23rem;
+      width: 22rem;
     }
   }
   @media (max-width: 700px) {
@@ -57,8 +58,8 @@ export const TextContainer = styled.section`
   margin-bottom: 1rem;
   width: 100%;
   h1 {
-    border-right: 2px solid ${({ theme }) => theme.background};
-    font-size: 6rem;
+    font-family: 'monospace', sans-serif;
+    font-size: 5rem;
     color: ${({ theme }) => theme.primary};
   }
   h2 {
@@ -78,6 +79,7 @@ export const TextContainer = styled.section`
       flex: 1;
     }
   }
+
   @media (max-width: 1000px) {
     h1 {
       font-size: 3rem;
@@ -92,96 +94,13 @@ export const TextContainer = styled.section`
       width: 100%;
     }
   }
-
-  .animacao-caixa h1,
-  h2 {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 5s steps(40) 2s normal both;
-    animation-fill-mode: none;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 41.8rem;
-    }
-  }
-
-  @media (max-width: 1400px) {
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 21rem;
-      }
-    }
-  }
-
-  @media (max-width: 1300px) {
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 21rem;
-      }
-    }
-  }
-
-  @media (max-width: 1000px) {
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 16rem;
-      }
-    }
-  }
-
-  @media (max-width: 700px) {
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 15.9rem;
-      }
-    }
-  }
-  @keyframes blinkCursor {
-    from {
-      width: 0;
-      border-right-color: ${({ theme }) => theme.primary};
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-  @media (max-width: 700px) {
-    from {
-      width: 0;
-    }
-    to {
-      width: 25rem;
-    }
-  }
 `;
 
 export const InfosContainer = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 `;
 export const CodeItem = styled.pre`
   background: ${({ theme }) => theme.background3};
@@ -195,14 +114,12 @@ export const CodeItem = styled.pre`
   border-radius: 20px;
 
   @media (max-width: 1450px) {
-    width: 22rem;
+    width: 20rem;
     padding: 1.5rem;
     font-size: 0.8rem;
   }
   @media (max-width: 1000px) {
-    width: 22rem;
-    padding: 1rem;
-    font-size: 0.8rem;
+    width: 100%;
   }
   @media (max-width: 700px) {
     width: 100%;

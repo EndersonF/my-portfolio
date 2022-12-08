@@ -31,7 +31,7 @@ export const ItemContainer = styled.div`
     background: ${({ theme }) => theme.gradient};
     padding: 1rem;
     padding-top: 2.5rem;
-    height: 21rem;
+    height: 21.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -50,18 +50,20 @@ export const ItemContainer = styled.div`
     font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 1rem;
+    text-align: center;
   }
   p {
     color: ${({ theme }) => theme.textLight};
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1;
+    text-align: center;
   }
   &:hover > div {
     filter: brightness(1.3);
     transform: translateY(-20px);
   }
-  &:nth-child(even) > div{
+  &:nth-child(even) > div {
     margin-top: 4rem;
   }
 

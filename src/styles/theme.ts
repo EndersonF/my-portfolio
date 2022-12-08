@@ -12,7 +12,6 @@ const theme = {
   error: '#d45d5d',
   lightslategrey: '#64748B',
   background3: 'linear-gradient(to right, #41295a, #2f0743)'
-
 };
 
 export default theme;

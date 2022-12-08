@@ -1,9 +1,8 @@
+import Prismic from '@prismicio/client';
+import { GetStaticProps } from 'next';
 import Header from '../../components/Header';
 import ProjetoItem from '../../components/ProjetoDois';
 import { ProjetosContainer } from '../../styles/ProjetosStyles';
-
-import Prismic from '@prismicio/client';
-import { GetStaticPaths, GetStaticProps } from 'next';
 import { getPrismicClient } from '../../services/prismic';
 
 interface IProjeto {

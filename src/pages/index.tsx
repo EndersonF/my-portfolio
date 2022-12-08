@@ -1,5 +1,8 @@
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import Head from 'next/head';
 import { getPrismicClient } from '../services/prismic';
 import { HomeContainer } from '../styles/HomeStyles';
 import Header from '../components/Header';
@@ -9,10 +12,7 @@ import Projetos from '../components/Projetos';
 import Conhecimentos from '../components/Conhecimentos';
 import FormContato from '../components/FormContato';
 import Footer from '../components/Footer';
-import { useEffect } from 'react';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Head from 'next/head';
 
 interface IProjeto {
   slug: string;
@@ -45,7 +45,7 @@ export default function Home({ projetos }: HomeProps) {
         <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
-          content="Sou um desenvolvedor Front-end e Back-end e aqui apresento meus projetos e experiências."
+          content="Sou um desenvolvedor Front-end e aqui apresento meus projetos e experiências."
         />
       </Head>
       <Header />

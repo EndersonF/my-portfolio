@@ -1,5 +1,6 @@
+import Typical from 'react-typical';
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/perfill3.png';
+import picture from '../../assets/perfil2.jpeg';
 
 function HomeHero() {
   return (
@@ -7,9 +8,12 @@ function HomeHero() {
       <img className="perfil" src={picture} alt="Minha Foto" />
       <div>
         <TextContainer>
-          <div className="animacao-caixa">
-            <h1>Olá,</h1>
-            <h2>Me chamo Enderson! :)</h2>
+          <div>
+            <Typical
+              loop={1}
+              wrapper="h1"
+              steps={['', 2000, 'Olá, me chamo Enderson 🧑🏿‍💻', 2000]}
+            />
           </div>
         </TextContainer>
         <InfosContainer>
@@ -20,7 +24,7 @@ function HomeHero() {
               Nome: <span className="blue">"Enderson",</span>
             </div>
             <div>
-              Sobrenome: <span className="blue">"Barreto"</span>
+              Sobrenome: <span className="blue">"Frazão"</span>
               {'\u007D'}
             </div>
             <span className="purple">Graduação </span>
@@ -41,7 +45,7 @@ function HomeHero() {
             <span className="purple">Cargo </span>
             {'\u007B'}
             <div>
-              Função: <span className="blue">"Desenvolvedor Frontend",</span>
+              Função: <span className="blue">"Desenvolvedor Front-end",</span>
             </div>
             <div>
               Status: <span className="blue">"Buscando uma oportunidade"</span>

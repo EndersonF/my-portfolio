@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 interface ContainerProps {
-    imgUrl: string;
+  imgUrl: string;
 }
 
 export const Container = styled.div<ContainerProps>`
-      > a {
+  > a {
     position: relative;
     width: 100%;
     background: url(${props => props.imgUrl}) no-repeat center;
@@ -50,7 +50,6 @@ export const Container = styled.div<ContainerProps>`
       background: ${({ theme }) => theme.text};
       opacity: 0.3;
       transition: 0.7s;
-
     }
   }
 `;

@@ -45,6 +45,8 @@ export const ConhecimentoContainer = styled.div`
   }
 
   svg {
+    display: block;
+    margin: auto;
     width: 4.5rem;
     height: 4.5rem;
     color: ${({ theme }) => theme.secondary};
@@ -66,6 +68,7 @@ export const ConhecimentoContainer = styled.div`
       width: 3.5rem;
       height: 3.5rem;
       display: flex;
+      margin: auto;
     }
   }
 `;

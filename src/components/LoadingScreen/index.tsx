@@ -1,4 +1,3 @@
-
 import { Container, SpinnerContainer } from './styles';
 
 function LoadingScreen() {
