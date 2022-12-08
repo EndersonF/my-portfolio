@@ -1,18 +1,20 @@
-import nodeMailer from 'nodemailer';
+import nodemailer from 'nodemailer';
 import { google } from 'googleapis';
 
 const { OAuth2 } = google.auth;
+
 const email = process.env.MAILADRESS;
+
 const clientId = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
 const refreshToken = process.env.REFRESH_TOKEN;
 
-const oauth2Client = new OAuth2(clientId, clientSecret);
-oauth2Client.setCredentials({ refresh_token: refreshToken });
+const OAuth2_client = new OAuth2(clientId, clientSecret);
+OAuth2_client.setCredentials({ refresh_token: refreshToken });
 
-const acessToken = oauth2Client.getAccessToken();
+const accessToken = OAuth2_client.getAccessToken();
 
-const transporter = nodeMailer.createTransport({
+const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     type: 'OAuth2',
@@ -20,7 +22,7 @@ const transporter = nodeMailer.createTransport({
     clientId,
     clientSecret,
     refreshToken,
-    accessToken: acessToken
+    accessToken
   }
 });
 
