@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.section`
   width: 100%;
   > section {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
     margin-top: 4rem;
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
+    gap: 8rem;
 
     @media (max-width: 1000px) {
       gap: 2.5rem;
@@ -22,7 +22,6 @@ export const Container = styled.section`
       grid-template-columns: repeat(3, 5fr);
       justify-content: center;
       align-items: center;
-      margin-left: 3rem;
     }
   }
 `;
@@ -38,7 +37,7 @@ export const ConhecimentoContainer = styled.div`
   p {
     display: grid;
     color: ${({ theme }) => theme.primary};
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.3rem;
     text-transform: uppercase;
     text-align: center;

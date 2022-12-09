@@ -10,7 +10,7 @@ export const Container = styled.section`
 
   > img.perfil {
     flex: 1;
-    width: 35rem;
+    width: 34rem;
     display: block;
     border-radius: 50%;
     margin-bottom: 50px;
@@ -30,8 +30,8 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 1000px) {
-    > img {
-      width: 22rem;
+    > img.perfil {
+      width: 26rem;
     }
   }
   @media (max-width: 700px) {
@@ -41,12 +41,18 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 500px) {
+    > img.perfil {
+      width: 24rem;
+    }
     flex-direction: column-reverse;
     > div {
       width: 100%;
     }
   }
   @media (max-width: 400px) {
+    > img.perfil {
+      width: 22rem;
+    }
     flex-direction: column-reverse;
     > div {
       width: 100%;
@@ -82,7 +88,7 @@ export const TextContainer = styled.section`
 
   @media (max-width: 1000px) {
     h1 {
-      font-size: 3rem;
+      font-size: 2.6rem;
     }
     h2 {
       font-size: 1.5rem;

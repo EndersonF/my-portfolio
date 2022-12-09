@@ -69,14 +69,14 @@ export const ItemContainer = styled.div`
 
   @media (max-width: 1000px) {
     > div {
-      height: 15rem;
+      height: 18rem;
       padding-top: 1.5rem;
       h1 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 1rem;
       }
       h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
       p {
         font-size: 1rem;

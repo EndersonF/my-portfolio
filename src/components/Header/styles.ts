@@ -11,13 +11,14 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   height: 4rem;
-  border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
+  border-bottom: 2px solid ${({ theme }) => theme.backgroundLight};
   border-radius: 2.5rem;
 
   ul {
     display: flex;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
   }
 `;
 

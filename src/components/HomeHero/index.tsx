@@ -5,14 +5,20 @@ import picture from '../../assets/perfil2.jpeg';
 function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img className="perfil" src={picture} alt="Minha Foto" />
+      <img
+        className="perfil"
+        src={picture}
+        width="544px"
+        height="544px"
+        alt="perfil"
+      />
       <div>
         <TextContainer>
           <div>
             <Typical
               loop={1}
               wrapper="h1"
-              steps={['', 2000, 'Olá, me chamo Enderson 🧑🏿‍💻', 2000]}
+              steps={['', 2000, 'Olá, me chamo Enderson', 2000]}
             />
           </div>
         </TextContainer>

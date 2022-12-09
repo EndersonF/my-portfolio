@@ -24,13 +24,6 @@ export default createGlobalStyle`
     font: 400 1rem 'Exo', sans-serif;
   }
 
-    /* img.perfil {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    border-radius: 50%;
-  } */
-
   img.logo404 {
     width:400px;
     height:200px;
