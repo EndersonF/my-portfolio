@@ -50,7 +50,7 @@ export const Container = styled.section`
 export const ProjetoContainer = styled.div<ProjetoProps>`
   width: 100%;
   display: flex;
-  height: 35rem;
+  height: 30rem;
   align-items: flex-end;
   position: relative;
   &:hover {

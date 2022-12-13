@@ -13,9 +13,11 @@ export const Container = styled.footer`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
   }
 
   > div {
@@ -49,18 +51,27 @@ export const Container = styled.footer`
       }
     }
 
-    @media (max-width: 450px) {
+    @media (max-width: 550px) {
       button {
         font-size: 0.9rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    @media (max-width: 450px) {
+      button {
+        font-size: 0.7rem;
+        margin-right: 0.5rem;
       }
       > section {
-        gap: 0.8rem;
+        gap: 0.6rem;
         svg {
           width: 1.5rem;
           height: 1.5rem;
         }
         span {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
+          margin-left: 0.5rem;
         }
       }
     }

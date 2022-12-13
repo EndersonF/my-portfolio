@@ -21,7 +21,7 @@ export const Container = styled.section`
     flex: 4;
   }
   @media (max-width: 1450px) {
-    > img {
+    > img.perfil {
       width: 30rem;
     }
 
@@ -34,7 +34,7 @@ export const Container = styled.section`
       width: 26rem;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 750px) {
     flex-direction: column-reverse;
     > div {
       width: 100%;
@@ -61,43 +61,22 @@ export const Container = styled.section`
 `;
 
 export const TextContainer = styled.section`
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 100%;
   h1 {
     font-family: 'monospace', sans-serif;
     font-size: 5rem;
     color: ${({ theme }) => theme.primary};
   }
-  h2 {
-    font-size: 4rem;
-    font-weight: 400;
-    color: ${({ theme }) => theme.secondary};
-  }
   @media (max-width: 1450px) {
     h1 {
       font-size: 5rem;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-
-    > div {
-      flex: 1;
     }
   }
 
   @media (max-width: 1000px) {
     h1 {
-      font-size: 2.6rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-    }
-  }
-  @media (max-width: 700px) {
-    flex-direction: column-reverse;
-    > div {
-      width: 100%;
+      font-size: 2.8rem;
     }
   }
 `;
@@ -114,18 +93,19 @@ export const CodeItem = styled.pre`
   font-family: 'Exo', monospace;
   font-weight: 500;
   color: #fff;
-  width: 26rem;
+  width: 25rem;
   align-self: flex-start;
   transition: 4s !important;
   border-radius: 20px;
 
   @media (max-width: 1450px) {
-    width: 20rem;
-    padding: 1.5rem;
+    width: 21rem;
+    padding: 2rem;
     font-size: 0.8rem;
   }
   @media (max-width: 1000px) {
     width: 100%;
+    padding: 1rem;
   }
   @media (max-width: 700px) {
     width: 100%;
@@ -150,7 +130,7 @@ export const CodeItem = styled.pre`
 
   > div {
     margin: 0.2rem 0;
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
   }
 
   span.purple {

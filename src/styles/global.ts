@@ -24,6 +24,7 @@ export default createGlobalStyle`
     font: 400 1rem 'Exo', sans-serif;
   }
 
+
   img.logo404 {
     width:400px;
     height:200px;
@@ -48,6 +49,7 @@ export default createGlobalStyle`
     max-width: 85rem;
     padding: 0 1rem;
     @media(max-width:1450px) {
+      overflow-x: hidden;
       max-width: 70rem;
     }
     @media(max-width:1000px) {

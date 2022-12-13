@@ -4,24 +4,21 @@ export const Container = styled.section`
   width: 100%;
   > section {
     display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    margin-top: 4rem;
+    grid-template-columns: repeat(4, 4fr);
+    margin-top: 6rem;
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 6rem;
 
     @media (max-width: 1000px) {
-      gap: 2.5rem;
-      flex-wrap: wrap;
+      gap: 4rem;
     }
     @media (max-width: 700px) {
       flex-wrap: wrap;
-      margin-top: 4rem;
-      display: grid;
+      margin-top: 5rem;
       grid-template-columns: repeat(3, 5fr);
-      justify-content: center;
-      align-items: center;
+      gap: 3rem;
     }
   }
 `;
@@ -32,7 +29,6 @@ export const ConhecimentoContainer = styled.div`
   gap: 0.6rem;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
   border-radius: 0.5rem;
   p {
     display: grid;
@@ -66,8 +62,15 @@ export const ConhecimentoContainer = styled.div`
     svg {
       width: 3.5rem;
       height: 3.5rem;
-      display: flex;
-      margin: auto;
+    }
+  }
+  @media (max-width: 480px) {
+    p {
+      font-size: 0.8rem;
+    }
+    svg {
+      width: 3.2rem;
+      height: 3.2rem;
     }
   }
 `;

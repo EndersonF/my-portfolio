@@ -41,13 +41,13 @@ export const Container = styled.div<ContainerProps>`
 
   @media (max-width: 700px) {
     padding: 2rem 2.5rem;
-    height: 18rem;
+    height: 20rem;
     section {
       h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
       h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
     }
   }
