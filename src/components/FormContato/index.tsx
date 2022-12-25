@@ -18,7 +18,7 @@ function FormContato() {
           <>
             Preencha o formulário abaixo que
             <br />
-            irei retornar em breve.
+            irei retornar em breve!
           </>
         }
       />
