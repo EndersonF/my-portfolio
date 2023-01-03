@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import CertficadoItem from '../../components/CertficadoItem';
 import Header from '../../components/Header';
 import { CertificadosStyles } from '../../styles/CertificadosStyles';
@@ -5,6 +6,21 @@ import { CertificadosStyles } from '../../styles/CertificadosStyles';
 export default function Certificados() {
   return (
     <CertificadosStyles>
+      <Head>
+        <title>Certificados | Enderson Frazão</title>
+        <meta
+          name="description"
+          content="Aqui você pode conferir alguns dos meus certificados dos meus cursos."
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="Aqui você pode conferir alguns dos meus certificados dos meus cursos."
+        />
+      </Head>
       <Header />
       <main className="container">
         <CertficadoItem
@@ -78,6 +94,12 @@ export default function Certificados() {
           type=""
           imgUrl="https://i.ibb.co/6BcGTbQ/certificate-enderson-origamid-cssgrid-page-0001.jpg"
           slug="css-grid"
+        />
+        <CertficadoItem
+          title=""
+          type=""
+          imgUrl="https://i.ibb.co/wJRDmCd/doc-page-0001.jpg"
+          slug="css-flexbox"
         />
       </main>
     </CertificadosStyles>
