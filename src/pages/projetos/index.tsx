@@ -1,5 +1,6 @@
 import Prismic from '@prismicio/client';
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import Header from '../../components/Header';
 import ProjetoItem from '../../components/ProjetoDois';
 import { ProjetosContainer } from '../../styles/ProjetosStyles';
@@ -21,6 +22,21 @@ interface ProjetoProps {
 export default function Projetos({ projetos }: ProjetoProps) {
   return (
     <ProjetosContainer>
+      <Head>
+        <title>Projetos | Enderson Frazão</title>
+        <meta
+          name="description"
+          content="Aqui você pode conferir alguns dos meus projetos pessoais e profissionais."
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="Aqui você pode conferir alguns dos meus projetos pessoais e profissionais."
+        />
+      </Head>
       <Header />
       <main className="container">
         {projetos.map(projeto => (
