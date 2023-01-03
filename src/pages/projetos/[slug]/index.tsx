@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import BannerProjeto from '../../../components/BannerProjeto';
 import { ProjetoContainer } from '../../../styles/ProjetoStyles';
@@ -27,6 +28,15 @@ export default function Projeto({ projeto }: ProjetoProps) {
   }
   return (
     <ProjetoContainer>
+      <Head>
+        <title>{projeto.title} | Enderson Frazão</title>
+        <meta name="description" content={projeto.description} />
+        <meta property="og:image" content={projeto.thumbnail} />
+        <meta property="og:image:secure_url" content={projeto.thumbnail} />
+        <meta name="twitter:image" content={projeto.thumbnail} />
+        <meta name="twitter:image:src" content={projeto.thumbnail} />
+        <meta property="og:description" content={projeto.description} />
+      </Head>
       <Header />
       <BannerProjeto
         title={projeto.title}
