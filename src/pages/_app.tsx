@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         startPosition={0.3}
         stopDelayMs={200}
         height={3}
-        showOnShallow={true}
+        showOnShallow
       />
       <Toaster position="bottom-right" />
       <Component {...pageProps} />
