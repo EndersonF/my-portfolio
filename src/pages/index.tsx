@@ -37,7 +37,7 @@ export default function Home({ projetos }: HomeProps) {
         <title>Home | Enderson Frazão</title>
         <meta
           name="description"
-          content="Sou um apaixonado por códigos, inovações tecnológicas e muito café. Formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal, sou focado em desenvolvimento front-end e sempre preocupado com a experiência do usuário final. Aqui apresento meus projetos e experiências!"
+          content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências! "
         />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:image:secure_url" content="/ogimage.png" />
@@ -45,7 +45,7 @@ export default function Home({ projetos }: HomeProps) {
         <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
-          content="Sou um apaixonado por códigos, inovações tecnológicas e muito café. Formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal, sou focado em desenvolvimento front-end e sempre preocupado com a experiência do usuário final. Aqui apresento meus projetos e experiências!"
+          content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências!"
         />
       </Head>
       <Header />
