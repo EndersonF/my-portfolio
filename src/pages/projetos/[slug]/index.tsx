@@ -31,6 +31,11 @@ export default function Projeto({ projeto }: ProjetoProps) {
       <Head>
         <title>{projeto.title} | Enderson Frazão</title>
         <meta name="description" content={projeto.description} />
+        <meta
+          property="og:title"
+          content={`${projeto.title} | Enderson Frazão`}
+        />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content={projeto.thumbnail} />
         <meta property="og:image:secure_url" content={projeto.thumbnail} />
         <meta name="twitter:image" content={projeto.thumbnail} />
