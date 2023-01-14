@@ -1,22 +1,44 @@
-import logo from '../../public/gif.gif';
+import Image from 'next/image';
+import Link from 'next/link';
+import Head from 'next/head';
+import styles from '../styles/404.module.css';
+import spinner from '../../public/gif.gif';
 
-export default function Custom404() {
+export default function NotFoundPage404() {
   return (
-    <div
-      style={{
-        backgroundColor: '#0EE7B7',
-        width: '100vw',
-        height: '100vh',
-        textAlign: 'center',
-        textTransform: 'uppercase',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontWeight: 'bold'
-      }}
-    >
-      <h1>404 - Página Não Encontrada.</h1>
-      <img className="logo404" src={logo} alt="logo404" />
-    </div>
+    <>
+      <Head>
+        <title>404 - Página Não Encontrada</title>
+        <meta name="description" content="Página não encontrada" />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Enderson Frazão" />
+        <meta name="keywords" content="Enderson, Portfólio" />
+      </Head>
+      ;
+      <div className={styles.container}>
+        <h1 className={styles.h1}>404 - Página Não Encontrada</h1>
+        <div className={styles.spinner}>
+          <Image
+            width={480}
+            height={270}
+            src={spinner}
+            objectFit="fill"
+            alt="spinner"
+          />
+        </div>
+        <p className={styles.paragrafo}>
+          Oops...Parece que essa página não existe. <br />
+          Clique no botão abaixo para voltar para a página inicial.
+        </p>
+        <div className={styles.link}>
+          <Link href="/">
+            <button type="button" className={styles.button1}>
+              Homepage
+            </button>
+          </Link>
+        </div>
+      </div>
+    </>
   );
 }
