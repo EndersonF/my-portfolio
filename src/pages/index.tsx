@@ -37,8 +37,11 @@ export default function Home({ projetos }: HomeProps) {
         <title>Home | Enderson Frazão</title>
         <meta
           name="description"
-          content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências! "
+          content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências!"
         />
+        <meta property="og:title" content="Home | Enderson Frazão" />
+        <meta property="og:url" content="https://endersonf.tech" />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:image:secure_url" content="/ogimage.png" />
         <meta name="twitter:image" content="/ogimage.png" />
