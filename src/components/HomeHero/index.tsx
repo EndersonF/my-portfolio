@@ -13,6 +13,7 @@ function HomeHero() {
           height={800}
           alt="foto de perfil"
           objectFit="contain"
+          priority={true}
           quality="80"
         />
       </div>
