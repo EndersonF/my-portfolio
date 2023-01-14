@@ -1,24 +1,28 @@
 import Typical from 'react-typical';
+import Image from 'next/image';
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/perfil2.jpeg';
 
 function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img
-        className="perfil"
-        src={picture}
-        width="544px"
-        height="544px"
-        alt="perfil"
-      />
+      <div className="perfil">
+        <Image
+          className="perfil"
+          src="/assets/me.jpg"
+          width={800}
+          height={800}
+          alt="foto de perfil"
+          objectFit="contain"
+          quality="80"
+        />
+      </div>
       <div>
         <TextContainer>
           <div>
             <Typical
               loop={1}
               wrapper="h1"
-              steps={['', 2000, 'Olá, me chamo Enderson', 2000]}
+              steps={['', 2000, 'Hey, me chamo Enderson', 2000]}
             />
           </div>
         </TextContainer>
