@@ -14,7 +14,7 @@ export const ProjetoContainer = styled.div`
     padding: 0 5rem;
 
     p {
-      color: ${({ theme }) => theme.textHighlight};
+      color: ${({ theme }) => theme.backgroundWhite};
       font-size: 1.5rem;
       font-weight: 400;
       text-align: justify;
