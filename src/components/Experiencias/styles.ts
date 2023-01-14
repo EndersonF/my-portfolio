@@ -53,7 +53,7 @@ export const ItemContainer = styled.div`
     text-align: center;
   }
   p {
-    color: ${({ theme }) => theme.textLight};
+    color: ${({ theme }) => theme.backgroundWhite};
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1;

@@ -84,7 +84,7 @@ export const TextArea = styled.textarea`
   grid-column: 1/3;
 
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border-color: ${({ theme }) => theme.primary};
   }
   &::placeholder {
     color: ${({ theme }) => theme.primary};
