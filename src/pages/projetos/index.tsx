@@ -28,6 +28,8 @@ export default function Projetos({ projetos }: ProjetoProps) {
           name="description"
           content="Aqui você pode conferir alguns dos meus projetos pessoais e profissionais."
         />
+        <meta property="og:title" content="Projetos | Enderson Frazão" />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:image:secure_url" content="/ogimage.png" />
         <meta name="twitter:image" content="/ogimage.png" />
