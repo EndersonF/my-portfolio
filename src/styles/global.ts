@@ -24,16 +24,6 @@ export default createGlobalStyle`
     font: 400 1rem 'Exo', sans-serif;
   }
 
-
-  img.logo404 {
-    width:400px;
-    height:200px;
-    position: absolute;
-    margin-top: 15%;
-    border: 4px solid #fff;
-    border-radius: 4px;
-    box-shadow: 12px 12px black, -1em 0 0.4em gray; 
-  }
   ul {
     list-style: none;
   }
