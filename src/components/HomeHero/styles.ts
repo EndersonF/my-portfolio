@@ -8,7 +8,7 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
 
-  > img.perfil {
+  .perfil > div {
     flex: 1;
     width: 34rem;
     display: block;
@@ -21,7 +21,7 @@ export const Container = styled.section`
     flex: 4;
   }
   @media (max-width: 1450px) {
-    > img.perfil {
+    .perfil > div {
       width: 30rem;
     }
 
@@ -30,7 +30,7 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 1000px) {
-    > img.perfil {
+    .perfil > div {
       width: 26rem;
     }
   }
@@ -41,7 +41,7 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 500px) {
-    > img.perfil {
+    .perfil > div {
       width: 24rem;
     }
     flex-direction: column-reverse;
@@ -50,7 +50,7 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 400px) {
-    > img.perfil {
+    .perfil > div {
       width: 22rem;
     }
     flex-direction: column-reverse;
@@ -64,9 +64,10 @@ export const TextContainer = styled.section`
   margin-bottom: 2rem;
   width: 100%;
   h1 {
-    font-family: 'monospace', sans-serif;
-    font-size: 5rem;
+    font-family: 'Cutive Mono', IBM Plex Mono, monospace;
+    font-size: 4.7rem;
     color: ${({ theme }) => theme.primary};
+    letter-spacing: -4px;
   }
   @media (max-width: 1450px) {
     h1 {
@@ -95,7 +96,7 @@ export const CodeItem = styled.pre`
   color: #fff;
   width: 25rem;
   align-self: flex-start;
-  transition: 4s !important;
+  transition: 3s !important;
   border-radius: 20px;
 
   @media (max-width: 1450px) {
@@ -122,7 +123,7 @@ export const CodeItem = styled.pre`
   }
 
   &:hover {
-    filter: brightness(1.5);
+    filter: brightness(1.3);
   }
   &:last-child {
     align-self: flex-end;
