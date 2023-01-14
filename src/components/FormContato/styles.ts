@@ -14,10 +14,11 @@ export const FormContainer = styled.form`
     border: none;
     padding: 1rem 2.5rem;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     font-size: 1.2rem;
     border-radius: 0.5rem;
-    background: ${({ theme }) => theme.primary};
+    background: #026456;
     transition: 0.5s;
     width: fit-content;
 

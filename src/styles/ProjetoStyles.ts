@@ -22,12 +22,13 @@ export const ProjetoContainer = styled.div`
     }
 
     button {
-      background: ${({ theme }) => theme.primary};
+      background: #026456;
       padding: 0.8rem 3rem;
       border-radius: 5rem;
       border: none;
       transition: 0.5s;
       margin-top: 2rem;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
       &:hover {
         background: ${({ theme }) => darken(0.05, theme.primary)};

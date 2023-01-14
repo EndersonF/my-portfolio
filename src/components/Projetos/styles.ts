@@ -22,11 +22,12 @@ export const Container = styled.section`
     }
   }
   > button {
-    background: ${({ theme }) => theme.primary};
+    background: #026456;
     padding: 0.8rem 3rem;
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
     &:hover {
       background: ${({ theme }) => darken(0.05, theme.primary)};
@@ -36,7 +37,7 @@ export const Container = styled.section`
       text-transform: uppercase;
       color: #fff;
       font-size: 1.5rem;
-      font-weight: 300;
+      font-weight: 400;
     }
 
     @media (max-width: 500px) {
