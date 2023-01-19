@@ -13,6 +13,7 @@ import Conhecimentos from '../components/Conhecimentos';
 import FormContato from '../components/FormContato';
 import Footer from '../components/Footer';
 import 'aos/dist/aos.css';
+import Sobre from '../components/Sobre';
 
 interface IProjeto {
   slug: string;
@@ -54,6 +55,7 @@ export default function Home({ projetos }: HomeProps) {
       <Header />
       <main className="container">
         <HomeHero />
+        <Sobre />
         <Experiencias />
         <Projetos projetos={projetos} />
         <Conhecimentos />
