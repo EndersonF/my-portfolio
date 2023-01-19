@@ -1,5 +1,5 @@
-// import Link from 'next/link';
 import { Container } from './styles';
+// import Link from 'next/link';
 interface CertficadoItemProps {
   title: string;
   type: string;
