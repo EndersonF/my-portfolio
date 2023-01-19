@@ -34,7 +34,7 @@ export default function NotFoundPage404() {
         <div className={styles.link}>
           <Link href="/">
             <button type="button" className={styles.button1}>
-              Homepage
+              <span>Homepage</span>
             </button>
           </Link>
         </div>
