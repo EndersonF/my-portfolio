@@ -8,7 +8,7 @@ export const Container = styled.section`
     display: flex;
     gap: 2rem;
     padding-bottom: 8rem;
-    border-bottom: 3px solid ${({ theme }) => theme.backgroundLight};
+    border-bottom: 3px solid ${({ theme }) => theme.primary};
     justify-content: center;
 
     @media (max-width: 1000px) {

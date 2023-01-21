@@ -15,6 +15,7 @@ export const Container = styled.div`
     line-height: 2rem;
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
+    font-family: 'Exo', monospace, sans-serif;
   }
   @media (max-width: 1000px) {
     h1 {
@@ -29,10 +30,5 @@ export const Container = styled.div`
     h2 {
       font-size: 1.2rem;
     }
-  }
-
-  span {
-    color: #aa88ff;
-    font-style: italic;
   }
 `;

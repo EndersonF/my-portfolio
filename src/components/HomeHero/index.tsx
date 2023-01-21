@@ -28,7 +28,7 @@ function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Infos </span>
+            <span className="purple">Infos</span>
             {'\u007B'}
             <div>
               Nome: <span className="blue">&quot;Enderson&quot;,</span>

@@ -4,8 +4,8 @@ export default function SobreItem() {
   return (
     <Container>
       <h2>
-        Prazer em te conhecer, sou o <span>Enderson</span>, um apaixonado por
-        códigos, inovações tecnlógicas e muito café.
+        Prazer em te conhecer, sou o <b>Enderson</b>, um apaixonado por códigos,
+        inovações tecnológicas e muito café.
         <br />
         Formado em Análise e Desenvolvimento de Sistemas pelo Insituto Federal
         de Rondônia, sou focado em desenvolvimento front-end e motivado pela
