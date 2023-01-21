@@ -11,11 +11,11 @@ export const Container = styled.div`
 
   h2 {
     color: ${({ theme }) => theme.backgroundWhite};
-    font-weight: 500;
-    line-height: 2rem;
-    letter-spacing: 0.1rem;
-    font-size: 1.6rem;
-    font-family: 'Exo', monospace, sans-serif;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: 0.5px;
+    font-size: 1.8rem;
+    font-family: 'Exo', Roboto, sans-serif;
   }
   @media (max-width: 1000px) {
     h1 {

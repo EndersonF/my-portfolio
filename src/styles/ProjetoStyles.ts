@@ -46,6 +46,7 @@ export const ProjetoContainer = styled.div`
       padding: 0 2.5rem;
       p {
         font-size: 1rem;
+        letter-spacing: 1.6px;
       }
 
       button {

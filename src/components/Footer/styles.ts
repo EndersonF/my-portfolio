@@ -30,7 +30,7 @@ export const Container = styled.footer`
       background: none;
       color: ${({ theme }) => theme.secondary};
       text-transform: uppercase;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 1.2rem;
     }
     > section {

@@ -14,7 +14,7 @@ export const Container = styled.section`
     display: block;
     border-radius: 50%;
     margin-bottom: 50px;
-    border: 1vh solid #232d3622;
+    border: 1vh solid ${({ theme }) => theme.border};
   }
 
   > div {
@@ -92,8 +92,8 @@ export const CodeItem = styled.pre`
   background: ${({ theme }) => theme.background3};
   padding: 2rem;
   font-family: 'Exo', monospace;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 400;
+  color: ${({ theme }) => theme.backgroundWhite};
   width: 25rem;
   align-self: flex-start;
   transition: 3s !important;

@@ -76,7 +76,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     a {
       color: #fff;
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 400;
       display: flex;
       align-items: center;
       gap: 0.8rem;
@@ -111,7 +111,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
       h2 {
         color: ${({ theme }) => theme.secondary};
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 400;
         text-shadow: -4px 5px 22px #11172b;
       }
     }

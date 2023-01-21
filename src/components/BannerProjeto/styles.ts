@@ -24,7 +24,7 @@ export const Container = styled.div<ContainerProps>`
     h2 {
       color: ${({ theme }) => theme.secondary};
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 400;
     }
   }
 

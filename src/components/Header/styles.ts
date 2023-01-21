@@ -11,8 +11,9 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   height: 4rem;
-  border-bottom: 2px solid ${({ theme }) => theme.backgroundLight};
+  border-bottom: 2px solid ${({ theme }) => theme.border};
   border-radius: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 
   ul {
     display: flex;

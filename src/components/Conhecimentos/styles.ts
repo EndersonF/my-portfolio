@@ -25,11 +25,11 @@ export const ConhecimentoContainer = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
-  background: ${({ theme }) => theme.background};
+  background: ${({ theme }) => theme.gradient};
   padding: 1rem 2rem;
   p {
     color: ${({ theme }) => theme.primary};
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.3rem;
     text-transform: uppercase;
     text-align: center;

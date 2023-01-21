@@ -18,27 +18,11 @@ export const Container = styled.div<ContainerProps>`
     border-radius: 1rem;
     border: 4px solid ${({ theme }) => theme.border};
     transition: 0.5s;
-    cursor: pointer;
     overflow: hidden;
     &:hover {
       border-color: ${({ theme }) => theme.primary};
       > div.overlay {
         opacity: 0.4;
-      }
-    }
-    > section {
-      z-index: 2;
-      h1 {
-        background: #000;
-        color: #fff;
-        border: solid 1px #000;
-        font-size: 1.5rem;
-      }
-      h2 {
-        background: #000;
-        color: #fff;
-        font-weight: 300;
-        font-size: 1.2rem;
       }
     }
     > div.overlay {
