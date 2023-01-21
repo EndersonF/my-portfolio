@@ -4,10 +4,10 @@ export default function SobreItem() {
   return (
     <Container>
       <h2>
-        Prazer em te conhecer, sou o <b>Enderson</b>, um apaixonado por códigos,
+        Prazer em te conhecer, sou o Enderson, um apaixonado por códigos,
         inovações tecnológicas e muito café.
         <br />
-        Formado em Análise e Desenvolvimento de Sistemas pelo Insituto Federal
+        Formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal
         de Rondônia, sou focado em desenvolvimento front-end e motivado pela
         possibilidade que a tecnologia nos proporciona de criar soluções para os
         mais diversos problemas.
@@ -20,7 +20,7 @@ export default function SobreItem() {
         <br />
         Dia após dia, foco no meu crescimento profissional e pessoal, aprendendo
         e me aprimorando cada vez mais, e no meu tempo livre gosto de jogar um
-        futebol, viodegame, praticar musculação, fazer alguns tutoriais para o
+        futebol, videogame, praticar musculação, fazer alguns tutoriais para o
         YouTube, ouvir música, tocar violão por mais que eu não seja bom estou
         evoluindo, e claro, tomar um café.
         <br />

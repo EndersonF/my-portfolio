@@ -26,17 +26,17 @@ function Conhecimentos() {
         <ConhecimentoItem title="CSS" icon={<FaCss3Alt />} />
         <ConhecimentoItem title="Javascript" icon={<IoLogoJavascript />} />
         <ConhecimentoItem title="TypeScript" icon={<SiTypescript />} />
-        <ConhecimentoItem title="NodeJS" icon={<IoLogoNodejs />} />
-        <ConhecimentoItem title="React" icon={<FaReact />} />
         <ConhecimentoItem title="NextJS" icon={<SiNextdotjs />} />
+        <ConhecimentoItem title="React" icon={<FaReact />} />
+        <ConhecimentoItem title="NodeJS" icon={<IoLogoNodejs />} />
         <ConhecimentoItem title="Blockchain" icon={<SiBlockchaindotcom />} />
         <ConhecimentoItem title="Git" icon={<DiGit />} />
-        <ConhecimentoItem title="Sass" icon={<IoLogoSass />} />
+        <ConhecimentoItem title="Python" icon={<IoLogoPython />} />
         <ConhecimentoItem
           title="Styled Components"
           icon={<SiStyledcomponents />}
         />
-        <ConhecimentoItem title="Python" icon={<IoLogoPython />} />
+        <ConhecimentoItem title="Sass" icon={<IoLogoSass />} />
       </section>
     </Container>
   );

@@ -22,7 +22,7 @@ function HomeHero() {
             <Typical
               loop={1}
               wrapper="h1"
-              steps={['', 2000, 'Hey, me chamo Enderson', 2000]}
+              steps={['', 2500, 'Hey, me chamo Enderson', 2500]}
             />
           </div>
         </TextContainer>

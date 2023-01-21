@@ -11,7 +11,7 @@ const theme = {
   border: '#313958',
   inputBackground: '#1E253E',
   error: '#d45d5d',
-  lightslategrey: '#4C5767',
+  lightslategrey: '#0F172A',
   background3: 'linear-gradient(to right, #41295a, #2f0743)'
 };
 
