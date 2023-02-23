@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import CertficadoItem from '../../components/CertficadoItem';
+import StyledModalImage from './StyledModalImage';
 import Header from '../../components/Header';
 import { CertificadosStyles } from '../../styles/CertificadosStyles';
 
@@ -23,83 +23,77 @@ export default function Certificados() {
       </Head>
       <Header />
       <main className="container">
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/J7b7pKG/Enderson-Fraz-o-Barreto-Curso-Alura-1.jpg"
-          slug="nodejs"
+        <div className="overlay">
+          <StyledModalImage
+            small="https://i.ibb.co/z244JKR/Enderson-git-1.png"
+            large="https://i.ibb.co/z244JKR/Enderson-git-1.png"
+            alt="Git e Github: Controle e compartilhe seu código"
+          />
+        </div>
+        <StyledModalImage
+          small="https://i.ibb.co/k1yJhDt/Enderson-Kanban-1.png"
+          large="https://i.ibb.co/k1yJhDt/Enderson-Kanban-1.png"
+          alt="Kanban: Fundamentos essenciais"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/RTtNkXY/Enderson-git-page-0001.jpg"
-          slug="git"
+        <StyledModalImage
+          small="https://i.ibb.co/qr316jr/Enderson-scrum-1.png"
+          large="https://i.ibb.co/qr316jr/Enderson-scrum-1.png"
+          alt="Scrum: Agilidade em seu projeto"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/rv4Xw9K/Enderson-Kanban-page-0001.jpg"
-          slug="kanban"
+        <StyledModalImage
+          small="https://i.ibb.co/16BYmZJ/Enderson-formacao-js-1.png"
+          large="https://i.ibb.co/16BYmZJ/Enderson-formacao-js-1.png"
+          alt="JavaScript para back-end"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/NFHR2PS/Enderson-formacao-js-page-0001.jpg"
-          slug="javascript-backend"
+        <StyledModalImage
+          small="https://i.ibb.co/C7t6Rf3/Enderson-Fraz-o-Barreto-Curso-Alura-1.png"
+          large="https://i.ibb.co/C7t6Rf3/Enderson-Fraz-o-Barreto-Curso-Alura-1.png"
+          alt="NodeJS: Streaming de dados e repositório"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/g7ZJ7K4/Enderson-rest-node-page-0001.jpg"
-          slug="rest"
+        <StyledModalImage
+          small="https://i.ibb.co/BzGP1Rz/Enderson-rest-node-1.png"
+          large="https://i.ibb.co/BzGP1Rz/Enderson-rest-node-1.png"
+          alt="REST com NodeJS: API com Express e MySQL"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/Yb7VxhP/Enderson-scrum-page-0001.jpg"
-          slug="scrum"
+        <StyledModalImage
+          small="https://i.ibb.co/cvj0JkF/Enderson-web-1.png"
+          large="https://i.ibb.co/cvj0JkF/Enderson-web-1.png"
+          alt="HTTP: Entendendo a web por baixo dos panos"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/gD9Nskp/Enderson-web-page-0001.jpg"
-          slug="http"
+        <StyledModalImage
+          small="https://udemy-certificate.s3.amazonaws.com/image/UC-b2638df6-71f1-4074-a3da-cb9a37a0980b.jpg"
+          large="https://udemy-certificate.s3.amazonaws.com/image/UC-b2638df6-71f1-4074-a3da-cb9a37a0980b.jpg"
+          alt="Curso web moderno com JavaScript 2021"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/jZgkxyh/certificado-web-moderno-js.jpg"
-          slug="web-moderno"
+        <StyledModalImage
+          small="https://i.ibb.co/qgY3DGS/Cert-AWS-1.png"
+          large="https://i.ibb.co/qgY3DGS/Cert-AWS-1.png"
+          alt="Computação em Nuvem | AWS"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/rcyX5h8/JS-Origamid-novomodelo-page-0001.jpg"
-          slug="javascript-es6"
+        <StyledModalImage
+          small="https://i.ibb.co/2d8RthH/flexblox.jpg"
+          large="https://i.ibb.co/2d8RthH/flexblox.jpg"
+          alt="CSS Flexbox"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/2ZM66LB/certificate-enderson-origamid-react-page-0001.jpg"
-          slug="react"
+        <StyledModalImage
+          small="https://i.ibb.co/PZmJqdG/certificate-enderson-origamid-cssgrid-page-0001.jpg"
+          large="https://i.ibb.co/PZmJqdG/certificate-enderson-origamid-cssgrid-page-0001.jpg"
+          alt="CSS Grid Layout"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/KqB8Znf/certificate-enderson-origamid-htmlandcss-pages-to-jpg-0001.jpg"
-          slug="html-css"
+        <StyledModalImage
+          small="https://i.ibb.co/88DqyWG/javascript-origamid-1.png"
+          large="https://i.ibb.co/88DqyWG/javascript-origamid-1.png"
+          alt="JavaScript Completo ES6"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/6BcGTbQ/certificate-enderson-origamid-cssgrid-page-0001.jpg"
-          slug="css-grid"
+        <StyledModalImage
+          small="https://i.ibb.co/vZxS8W6/origamid-html-1.png"
+          large="https://i.ibb.co/vZxS8W6/origamid-html-1.png"
+          alt="HTML e CSS para iniciantes"
         />
-        <CertficadoItem
-          title=""
-          type=""
-          imgUrl="https://i.ibb.co/wJRDmCd/doc-page-0001.jpg"
-          slug="css-flexbox"
+        <StyledModalImage
+          small="https://i.ibb.co/8cWfgjk/react-origamid-1.png"
+          large="https://i.ibb.co/8cWfgjk/react-origamid-1.png"
+          alt="React Completo"
         />
       </main>
     </CertificadosStyles>

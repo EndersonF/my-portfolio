@@ -14,7 +14,7 @@ export const Container = styled.div`
     font-weight: 400;
     line-height: 2.2rem;
     letter-spacing: 0.5px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: 'Exo', Roboto, sans-serif;
   }
   @media (max-width: 1000px) {
