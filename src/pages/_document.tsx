@@ -48,7 +48,6 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Exo:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         </Head>
         <body>
