@@ -1,19 +1,22 @@
-import { SiGmail } from 'react-icons/si';
-import { FaGithubAlt, FaTwitch } from 'react-icons/fa';
 import {
   AiOutlineFilePdf,
   AiOutlineTwitter,
-  AiFillLinkedin
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiOutlineArrowUp
 } from 'react-icons/ai';
+
+import { FaGithubAlt, FaTwitch } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 import { Container } from './styles';
 
 function Footer() {
   function handleRedirect(url: string) {
-    window.open(url);
+    window.open(url, '_blank', 'noopener noreferrer');
   }
 
   function handleScrollTop() {
-    window.scroll({
+    window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
@@ -22,8 +25,13 @@ function Footer() {
   return (
     <Container>
       <div className="container">
-        <button type="button" onClick={handleScrollTop}>
-          Voltar ao topo 🡩
+        <button
+          className="buttonScroll"
+          type="button"
+          title="Voltar ao topo"
+          onClick={handleScrollTop}
+        >
+          <AiOutlineArrowUp />
         </button>
         <section>
           <AiOutlineTwitter
@@ -43,6 +51,11 @@ function Footer() {
           />
           <FaTwitch
             onClick={() => handleRedirect('https://www.twitch.tv/enderfpss')}
+          />
+          <AiFillYoutube
+            onClick={() =>
+              handleRedirect('https://www.youtube.com/@EndersonS16/videos')
+            }
           />
           <AiOutlineFilePdf
             onClick={() =>

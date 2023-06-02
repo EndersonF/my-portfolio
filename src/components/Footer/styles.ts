@@ -16,8 +16,15 @@ export const Container = styled.footer`
     font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
-    align-items: center;
-    justify-content: center;
+  }
+
+  .buttonScroll {
+    border: none;
+    background: none;
+    color: ${({ theme }) => theme.secondary};
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 1.6rem;
   }
 
   > div {
@@ -25,14 +32,6 @@ export const Container = styled.footer`
     align-items: center;
     justify-content: space-between;
 
-    button {
-      border: none;
-      background: none;
-      color: ${({ theme }) => theme.secondary};
-      text-transform: uppercase;
-      font-weight: 400;
-      font-size: 1.2rem;
-    }
     > section {
       display: flex;
       align-items: center;

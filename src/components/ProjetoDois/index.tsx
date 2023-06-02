@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Container } from './styles';
 
@@ -11,13 +12,16 @@ interface ProjetoDoisProps {
 function ProjetoItem({ title, type, imgUrl, slug }: ProjetoDoisProps) {
   return (
     <Container imgUrl={imgUrl}>
-      <Link href={`/projetos/${slug}`}>
+      <Link href={`/projetos/${slug}`} as={`/projetos/${slug}`}>
         <a>
-          <div className="overlay" />
           <section>
             <h1>{title}</h1>
             <h2>{type}</h2>
           </section>
+          <div className="image-container">
+            <Image src={imgUrl} alt={title} layout="fill" objectFit="cover" />
+            <div className="overlay" />
+          </div>
         </a>
       </Link>
     </Container>

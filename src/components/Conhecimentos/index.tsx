@@ -5,14 +5,10 @@ import {
   IoLogoJavascript,
   IoLogoPython,
   IoLogoNodejs,
-  IoLogoSass
+  IoLogoSass,
+  IoLogoWordpress
 } from 'react-icons/io5';
-import {
-  SiTypescript,
-  SiNextdotjs,
-  SiBlockchaindotcom,
-  SiStyledcomponents
-} from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiStyledcomponents } from 'react-icons/si';
 import SectionTitle from '../SectionTitle';
 import ConhecimentoItem from './ConhecimentoItem';
 import { Container } from './styles';
@@ -26,10 +22,10 @@ function Conhecimentos() {
         <ConhecimentoItem title="CSS" icon={<FaCss3Alt />} />
         <ConhecimentoItem title="Javascript" icon={<IoLogoJavascript />} />
         <ConhecimentoItem title="TypeScript" icon={<SiTypescript />} />
-        <ConhecimentoItem title="NextJS" icon={<SiNextdotjs />} />
+        <ConhecimentoItem title="Next.JS" icon={<SiNextdotjs />} />
+        <ConhecimentoItem title="Node.JS" icon={<IoLogoNodejs />} />
         <ConhecimentoItem title="React" icon={<FaReact />} />
-        <ConhecimentoItem title="NodeJS" icon={<IoLogoNodejs />} />
-        <ConhecimentoItem title="Blockchain" icon={<SiBlockchaindotcom />} />
+        <ConhecimentoItem title="WordPress" icon={<IoLogoWordpress />} />
         <ConhecimentoItem title="Git" icon={<DiGit />} />
         <ConhecimentoItem title="Python" icon={<IoLogoPython />} />
         <ConhecimentoItem

@@ -1,22 +1,26 @@
 import styled from 'styled-components';
 
+const FONT_FAMILY = "font-family: 'Exo', Roboto, sans-serif;";
+
 export const Container = styled.div`
   width: 100%;
   align-items: center;
 
   h1 {
-    color: ${({ theme }) => theme.primary};
-    font-size: 5rem;
+    color: ${({ theme: { primary } }) => primary};
+    font-size: 4rem;
+    ${FONT_FAMILY}
   }
 
-  h2 {
-    color: ${({ theme }) => theme.backgroundWhite};
+  p {
+    color: ${({ theme: { backgroundWhite } }) => backgroundWhite};
     font-weight: 400;
     line-height: 2.2rem;
     letter-spacing: 0.5px;
     font-size: 1.4rem;
-    font-family: 'Exo', Roboto, sans-serif;
+    ${FONT_FAMILY}
   }
+
   @media (max-width: 1000px) {
     h1 {
       font-size: 3rem;
@@ -27,7 +31,7 @@ export const Container = styled.div`
     h1 {
       font-size: 1.5rem;
     }
-    h2 {
+    p {
       font-size: 1.2rem;
     }
   }

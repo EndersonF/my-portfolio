@@ -8,7 +8,7 @@ export const Container = styled.section`
   justify-content: center;
   margin-top: 5rem;
 
-  .perfil > div {
+  .Fotoperfil > div {
     flex: 1;
     width: 34rem;
     display: block;
@@ -20,28 +20,22 @@ export const Container = styled.section`
   > div {
     flex: 4;
   }
-  @media (max-width: 1450px) {
-    .perfil > div {
-      width: 30rem;
-    }
 
-    > div {
-      flex: 1;
-    }
-  }
   @media (max-width: 1000px) {
-    .perfil > div {
+    .Fotoperfil > div {
       width: 26rem;
     }
   }
+
   @media (max-width: 750px) {
     flex-direction: column-reverse;
     > div {
       width: 100%;
     }
   }
+
   @media (max-width: 500px) {
-    .perfil > div {
+    .Fotoperfil > div {
       width: 24rem;
     }
     flex-direction: column-reverse;
@@ -49,9 +43,10 @@ export const Container = styled.section`
       width: 100%;
     }
   }
+
   @media (max-width: 400px) {
-    .perfil > div {
-      width: 22rem;
+    .Fotoperfil > div {
+      width: 20rem;
     }
     flex-direction: column-reverse;
     > div {

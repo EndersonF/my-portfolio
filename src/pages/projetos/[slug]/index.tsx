@@ -72,7 +72,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return {
     paths,
-    fallback: true
+    fallback: 'blocking' // alterado de 'true' para 'blocking'
   };
 };
 
@@ -81,6 +81,12 @@ export const getStaticProps: GetStaticProps = async context => {
   const { slug } = context.params;
 
   const response = await prismic.getByUID('projeto', String(slug), {});
+
+  if (!response) {
+    return {
+      notFound: true
+    };
+  }
 
   const projeto = {
     slug: response.uid,

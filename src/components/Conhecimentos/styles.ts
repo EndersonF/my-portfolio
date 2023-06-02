@@ -42,15 +42,17 @@ export const ConhecimentoContainer = styled.div`
     height: 4.5rem;
     color: ${({ theme }) => theme.secondary};
     transition: 0.3s;
+    transform-origin: center;
   }
+
   &:hover {
     svg {
       color: ${({ theme }) => theme.primary};
-      transform: scale(0.95);
-      transform: rotate(360deg);
+      transform: scale(0.95) rotate(360deg);
       transition: 1s ease-in-out;
     }
   }
+
   @media (max-width: 1000px) {
     p {
       font-size: 1rem;
@@ -60,6 +62,7 @@ export const ConhecimentoContainer = styled.div`
       height: 4rem;
     }
   }
+
   @media (max-width: 380px) {
     p {
       font-size: 0.8rem;

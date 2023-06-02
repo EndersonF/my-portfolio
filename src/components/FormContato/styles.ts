@@ -64,7 +64,7 @@ export const Input = styled.input`
   }
 
   @media (max-width: 450px) {
-    padding: 1.4rem;
+    padding: 1.2rem;
     font-size: 1rem;
   }
 `;

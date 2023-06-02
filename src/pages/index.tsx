@@ -30,7 +30,7 @@ interface HomeProps {
 
 export default function Home({ projetos }: HomeProps) {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 2500 });
   }, []);
   return (
     <HomeContainer>
@@ -40,20 +40,20 @@ export default function Home({ projetos }: HomeProps) {
           name="description"
           content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências!"
         />
-        <meta property="og:title" content="Home | Enderson Frazão" />
+        <meta property="og:title" content="Enderson Frazão" />
         <meta property="og:url" content="https://endersonf.tech" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/ogimage.png" />
-        <meta property="og:image:secure_url" content="/ogimage.png" />
-        <meta name="twitter:image" content="/ogimage.png" />
-        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta property="og:image" content="https://i.imgur.com/Bl4WlDz.png" />
+        <meta property="og:image:secure_url" content="assets/ogimage.png" />
+        <meta name="twitter:image" content="assets/ogimage.png" />
+        <meta name="twitter:image:src" content="assets/ogimage.png" />
         <meta
           property="og:description"
           content="Sou um desenvolvedor front-end e sempre estou aprendendo algo novo. Aqui apresento meus projetos e experiências!"
         />
       </Head>
       <Header />
-      <main className="container">
+      <main className="container overflow-hidden">
         <HomeHero />
         <Sobre />
         <Experiencias />

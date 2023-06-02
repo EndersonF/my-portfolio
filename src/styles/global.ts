@@ -34,19 +34,43 @@ export default createGlobalStyle`
     text-decoration: none;
   }
   .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 85rem;
-    padding: 0 1rem;
-    @media(max-width:1450px) {
-      overflow-x: hidden;
-      max-width: 70rem;
-    }
-    @media(max-width:1000px) {
-      max-width: 50rem;
-    }
-    @media(max-width:700px) {
-      padding: 0 2rem;
-    }
+  width: 100%;
+  margin: 0 auto;
+  max-width: 85rem;
+  padding: 0 1rem;
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1450px) {
+  .overflow-hidden {
+    max-width: 70rem;
   }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 50rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
 `;
