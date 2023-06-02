@@ -28,8 +28,8 @@ const images: ImageProps[] = [
   },
   {
     id: uuidv4(),
-    small: 'images/Enderson-scrum-1.webp',
-    large: 'images/Enderson-scrum-1.webp',
+    small: 'images/enderson-scrum-1.webp',
+    large: 'images/enderson-scrum-1.webp',
     alt: 'Scrum: Agilidade em seu projeto'
   },
   {
@@ -58,8 +58,8 @@ const images: ImageProps[] = [
   },
   {
     id: uuidv4(),
-    small: 'images/Enderson-js-udemy.webp',
-    large: 'images/Enderson-js-udemy.webp',
+    small: 'images/enderson-js-udemy.webp',
+    large: 'images/enderson-js-udemy.webp',
     alt: 'Curso Web Moderno Completo com JavaScript 2021 + Projetos'
   },
   {
