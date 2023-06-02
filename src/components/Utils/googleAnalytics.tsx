@@ -1,9 +1,9 @@
 export const GA_TRACKING_ID = 'G-MSGK89NWXE';
 
 export function initializeGoogleAnalytics() {
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
+  (window as any).dataLayer = (window as any).dataLayer || [];
+  function gtag(...args: any[]) {
+    (window as any).dataLayer.push(args);
   }
   gtag('js', new Date());
 
