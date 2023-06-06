@@ -27,29 +27,12 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 750px), (max-width: 500px) {
     flex-direction: column-reverse;
     > div {
       width: 100%;
     }
-  }
-
-  @media (max-width: 500px) {
     .Fotoperfil > div {
-      width: 24rem;
-    }
-    flex-direction: column-reverse;
-    > div {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .Fotoperfil > div {
-      width: 20rem;
-    }
-    flex-direction: column-reverse;
-    > div {
       width: 100%;
     }
   }
@@ -62,8 +45,11 @@ export const TextContainer = styled.section`
     font-family: 'Cutive Mono', IBM Plex Mono, monospace;
     font-size: 4.7rem;
     color: ${({ theme }) => theme.primary};
-    letter-spacing: -4px;
+    letter-spacing: -6px;
+    text-align: center;
+    word-spacing: -0.875rem;
   }
+
   @media (max-width: 1450px) {
     h1 {
       font-size: 5rem;
@@ -72,7 +58,8 @@ export const TextContainer = styled.section`
 
   @media (max-width: 1000px) {
     h1 {
-      font-size: 2.8rem;
+      font-size: 3.2rem;
+      line-height: 1.2;
     }
   }
 `;
@@ -83,6 +70,7 @@ export const InfosContainer = styled.section`
   flex-direction: column;
   gap: 2rem;
 `;
+
 export const CodeItem = styled.pre`
   background: ${({ theme }) => theme.background3};
   padding: 2rem;
@@ -99,19 +87,11 @@ export const CodeItem = styled.pre`
     padding: 2rem;
     font-size: 0.8rem;
   }
-  @media (max-width: 1000px) {
-    width: 100%;
-    padding: 1rem;
-  }
-  @media (max-width: 700px) {
-    width: 100%;
-    align-self: center;
-  }
-  @media (max-width: 500px) {
-    width: 100%;
-    align-self: center;
-  }
-  @media (max-width: 400px) {
+
+  @media (max-width: 1000px),
+    (max-width: 700px),
+    (max-width: 500px),
+    (max-width: 400px) {
     width: 100%;
     align-self: center;
     font-size: 0.6rem;
@@ -120,6 +100,7 @@ export const CodeItem = styled.pre`
   &:hover {
     filter: brightness(1.3);
   }
+
   &:last-child {
     align-self: flex-end;
   }
@@ -127,11 +108,13 @@ export const CodeItem = styled.pre`
   > div {
     margin: 0.2rem 0;
     margin-left: 0.2rem;
+    line-height: 1.3;
   }
 
   span.purple {
     color: #c38cdd;
   }
+
   span.blue {
     color: #7ac7e3;
   }

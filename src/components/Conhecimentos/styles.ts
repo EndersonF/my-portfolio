@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   width: 100%;
+
   > section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -15,6 +16,7 @@ export const Container = styled.section`
 
     @media (max-width: 650px) {
       grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
     }
   }
 `;
@@ -27,6 +29,7 @@ export const ConhecimentoContainer = styled.div`
   border-radius: 0.5rem;
   background: ${({ theme }) => theme.gradient};
   padding: 1rem 2rem;
+
   p {
     color: ${({ theme }) => theme.primary};
     font-weight: bold;
@@ -57,16 +60,22 @@ export const ConhecimentoContainer = styled.div`
     p {
       font-size: 1rem;
     }
+
     svg {
       width: 4rem;
       height: 4rem;
     }
   }
 
+  @media (max-width: 400px) {
+    padding: 1rem;
+  }
+
   @media (max-width: 380px) {
     p {
       font-size: 0.8rem;
     }
+
     svg {
       width: 3.2rem;
       height: 3.2rem;

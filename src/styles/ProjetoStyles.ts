@@ -17,8 +17,8 @@ export const ProjetoContainer = styled.div`
       color: ${({ theme }) => theme.backgroundWhite};
       font-size: 1.5rem;
       font-weight: 400;
-      text-align: justify;
-      line-height: 1.5;
+      text-align: center;
+      line-height: 1.55;
     }
 
     button {
@@ -45,8 +45,8 @@ export const ProjetoContainer = styled.div`
     @media (max-width: 700px) {
       padding: 0 2.5rem;
       p {
-        font-size: 1rem;
-        letter-spacing: 1.6px;
+        font-size: 0.875rem;
+        letter-spacing: -0.01rem;
       }
 
       button {
