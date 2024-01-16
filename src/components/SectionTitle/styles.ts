@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: inline-block;
     width: 6px;
     height: 40px;
-    background: rgba(255, 255, 255);
+    background: ${({ theme }) => theme.backgroundWhite};
     margin-right: 1rem;
   }
 

@@ -17,7 +17,7 @@ export const ProjetoContainer = styled.div`
       color: ${({ theme }) => theme.backgroundWhite};
       font-size: 1.5rem;
       font-weight: 400;
-      text-align: center;
+      text-align: justify;
       line-height: 1.55;
     }
 
@@ -35,7 +35,7 @@ export const ProjetoContainer = styled.div`
       }
 
       a {
-        color: #fff;
+        color: #f8f8f2;
         text-transform: uppercase;
         font-size: 1.5rem;
         font-weight: 400;

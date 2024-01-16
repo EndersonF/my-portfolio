@@ -18,7 +18,7 @@ export default function Form() {
       toast.error('Preencha todos os campos para enviar sua mensagem!🙁', {
         style: {
           background: theme.error,
-          color: '#fff'
+          color: '#f8f8f2'
         }
       });
       return;
@@ -34,7 +34,7 @@ export default function Form() {
       toast('Mensagem enviada com sucesso!😀', {
         style: {
           background: theme.primary,
-          color: '#fff'
+          color: '#f8f8f2'
         }
       });
     } catch (error) {
@@ -43,7 +43,7 @@ export default function Form() {
         {
           style: {
             background: theme.error,
-            color: '#fff'
+            color: '#f8f8f2'
           }
         }
       );

@@ -4,7 +4,7 @@ export const Container = styled.footer`
   width: 100%;
   display: flex;
   margin-top: 10rem;
-  border-top: 1px solid ${({ theme }) => theme.backgroundLight};
+  border-top: 2px solid ${({ theme }) => theme.backgroundLight};
   height: 5rem;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@ export const Container = styled.footer`
     margin: 0;
     box-sizing: border-box;
     font-size: 1.2rem;
-    color: #fff;
+    color: ${({ theme }) => theme.backgroundWhite};
     font-weight: bold;
   }
 

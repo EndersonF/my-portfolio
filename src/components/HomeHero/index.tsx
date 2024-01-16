@@ -23,12 +23,12 @@ function HomeHero() {
           <Typical
             loop={1}
             wrapper="h1"
-            steps={[2500, 'Hey, me chamo Enderson', 2500]}
+            steps={[2500, 'Oi, me chamo Enderson', 2500]}
           />
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="purple">Infos</span>
+            <span className="purple">Informações</span>
             {'\u007B'}
             <div>
               Nome: <span className="blue">&quot;Enderson&quot;,</span>

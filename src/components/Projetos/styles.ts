@@ -35,7 +35,7 @@ export const Container = styled.section`
     }
     a {
       text-transform: uppercase;
-      color: #fff;
+      color: ${({ theme }) => theme.backgroundWhite};
       font-size: 1.5rem;
       font-weight: 400;
     }
@@ -74,7 +74,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     background: none;
     border: none;
     a {
-      color: #fff;
+      color: ${({ theme }) => theme.backgroundWhite};
       font-size: 2rem;
       font-weight: 400;
       display: flex;

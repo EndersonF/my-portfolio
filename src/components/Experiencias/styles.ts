@@ -60,7 +60,7 @@ export const ItemContainer = styled.div`
     text-align: center;
   }
   &:hover > div {
-    filter: brightness(1.3);
+    filter: brightness(1.2);
     transform: translateY(-20px);
   }
   &:nth-child(even) > div {

@@ -69,6 +69,7 @@ export const InfosContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  transition: transform 0.3s ease-in-out;
 `;
 
 export const CodeItem = styled.pre`
@@ -79,9 +80,7 @@ export const CodeItem = styled.pre`
   color: ${({ theme }) => theme.backgroundWhite};
   width: 25rem;
   align-self: flex-start;
-  transition: 3s !important;
   border-radius: 20px;
-
   @media (max-width: 1450px) {
     width: 21rem;
     padding: 2rem;
@@ -98,7 +97,7 @@ export const CodeItem = styled.pre`
   }
 
   &:hover {
-    filter: brightness(1.3);
+    filter: brightness(1.2);
   }
 
   &:last-child {
@@ -109,13 +108,14 @@ export const CodeItem = styled.pre`
     margin: 0.2rem 0;
     margin-left: 0.2rem;
     line-height: 1.3;
+    font-weight: 600;
   }
 
   span.purple {
-    color: #c38cdd;
+    color: #bd93f9;
   }
 
   span.blue {
-    color: #7ac7e3;
+    color: #8be9fd;
   }
 `;
